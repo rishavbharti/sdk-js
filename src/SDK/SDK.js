@@ -4,8 +4,8 @@ class SDK {
   constructor() {
     // Timeout here is a representation of delay in fetching the SDK
     setTimeout(() => {
-      this.value = 'Fetched SDK';
-      console.log('Fetched SDK. Updated value.');
+      this.value = "SDK has loaded";
+      console.log("SDK has loaded after 3 seconds");
     }, 3000);
   }
 
